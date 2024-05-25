@@ -47,19 +47,5 @@ let calcScrollValue = () => {
   window.onscroll = calcScrollValue;
   window.onload = calcScrollValue;
 // END Scroll to top button
-namme = document.getElementById('name').value;
-email = document.getElementById('email').value;
-sub = document.getElementById('sub').value;
-mes = document.getElementById('mes').value;
-document.getElementById('submit').addEventListener('click', () =>{
-  window.location.href =
-                "submitted.html",
-                "_self";
-  namme = '';
-  email = '';
-  sub = '';
-  mes= '';              
-  
-})
 
 
