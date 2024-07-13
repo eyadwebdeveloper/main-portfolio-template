@@ -114,9 +114,8 @@ a {
   padding: 1rem 0;
 }
 .navbar-logo{
-  text-transform: uppercase;
-  font-family: var(--poppins);
-  width: 80px;
+  width: 90px;
+  border-radius: 7px;
 }
 .navbar-toggler{
   border: none;
